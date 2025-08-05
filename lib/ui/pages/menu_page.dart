@@ -32,6 +32,8 @@ class _MenuPageState extends State<MenuPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        selectedItemColor: Colors.black,
         currentIndex: _currentIndex,
         onTap: (index) => trocarPagina(index),
         items: const [
