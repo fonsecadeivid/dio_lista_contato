@@ -14,7 +14,7 @@ class _ProfilePageState extends State<ProfilePage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
 
-        title: Text('DIO - Lista Contatos'),
+        title: Text('DIO - Profile'),
       ),
       body: Center(
         child: Column(

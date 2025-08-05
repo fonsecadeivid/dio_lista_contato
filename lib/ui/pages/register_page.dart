@@ -14,7 +14,7 @@ class _RegisterPageState extends State<RegisterPage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
 
-        title: Text('DIO - Lista Contatos'),
+        title: Text('DIO - Cadastro Contatos'),
       ),
       body: Center(
         child: Column(
